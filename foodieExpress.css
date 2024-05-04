@@ -125,6 +125,7 @@ body {
 /*Catlog*/
 .catlog1 {
     border-radius: 8px;
+    border: 1px solid black;
 }
 
 .catlog1 a {
@@ -293,6 +294,30 @@ body {
 
 
 /* Our servie */
+.ourservice .serve1 {
+    border: 2px solid black;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.ourservice .serve1:hover {
+    transform: scale(1.05);
+}
+/* Media query to adjust styles for smaller screens */
+@media (max-width: 576px) {
+    .ourservice h2 {
+        font-size: 24px;
+    }
+    .ourservice .serve1 img {
+        height: 150px;
+        width: 150px;
+    }
+    .ourservice .serve1 {
+        padding: 10px;
+    }
+}
 
 /* #ourService
 {
@@ -361,6 +386,18 @@ body {
     float: left;
     margin: 40px 50px 20px 50px;
 
+}
+@media (max-width: 1206px) {
+    .heightfooter 
+    {
+        height: 40px;
+    }
+}
+@media (max-width: 650px) {
+    .heightfooter 
+    {
+        height: 90px;
+    }
 }
 
 
