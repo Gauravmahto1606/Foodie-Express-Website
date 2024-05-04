@@ -1,0 +1,397 @@
+/*Nav Bar Styling*/
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar1 {
+    background-color: gainsboro;
+}
+
+#mynavbar ul li {
+    margin: 0px 30px;
+    /*35*/
+    padding: 2px;
+
+}
+
+#mynavbar ul li:hover {
+    border: 2px solid rebeccapurple;
+    border-radius: 25px;
+    /*15*/
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    margin: 0px 30px;
+    padding: 2px;
+
+
+}
+
+.navbar1 ul li a {
+    color: black;
+}
+
+.searchBar {
+    padding: 0px 20px;
+}
+
+.searchBar button {
+    margin-left: 4px;
+}
+
+
+.navbar1 .fa-cart-shopping {
+    margin-right: 8px;
+}
+
+.navbar1 .fa-cart-shopping:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+    color: black;
+
+}
+
+
+/*Slide show Order Button*/
+
+.slideimgbtn button {
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#btn1 button:hover
+/*.slideimgbtn*/
+    {
+    background-color: red;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    color: black;
+}
+
+#btn2 button:hover {
+    background-color: yellow;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    color: black;
+}
+
+#btn3 button:hover {
+    background-color: orange;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    color: black;
+}
+
+#animationbtn button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+
+
+/*First Order*/
+.firstOrder a {
+    text-decoration: none;
+    color: black;
+}
+
+.firstOrder a img:hover {
+    /* transform: skew(180deg);
+      transition-duration: 1s;*/
+    filter: drop-shadow(6px 6px 12px black);
+}
+
+/*Top Brand*/
+
+.brand a {
+    text-decoration: none;
+    color: black;
+}
+
+.brand a img:hover {
+    /* transform: skew(180deg);
+      transition-duration: 1s;*/
+    filter: drop-shadow(6px 6px 12px black);
+}
+
+/*Catlog*/
+.catlog1 {
+    border-radius: 8px;
+}
+
+.catlog1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.catlog1:hover {
+    /* filter: drop-shadow(0px 1px 2px black); */
+    border: 1px solid black;
+    transform: scale(1.1);
+    transition-duration: 1s;
+/* 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease; */
+    
+}
+
+
+
+
+
+.catlog1 a img {
+    border-radius: 15px;
+}
+
+.catlog1 a img:hover {
+    /*transform: scaleX(1.1);
+      transition-duration: 2s;*/
+    transform: scale(1.1);
+    transition-duration: 1s;
+    border-radius: 20px;
+
+}
+
+
+/*Java Script Logic */
+.darkMode {
+    outline: none;
+    border: 0px;
+    background: none;
+}
+
+.dark-mode {
+    background-color: #333;
+    /* Change this to your preferred dark mode background color */
+    color: white;
+    /* Change this to your preferred dark mode text color */
+}
+
+.listIndarkMode ul li a {
+    color: White;
+}
+
+.listIndarkMode div a {
+    color: white;
+}
+.listIndarkMode div a:hover {
+    color: red;
+}
+
+.listIndarkMode .fa-cart-shopping {
+    margin-right: 8px;
+}
+
+.listIndarkMode .fa-circle-half-stroke {
+    color: white;
+}
+
+/*First Order*/
+.topFirstOrderDarkMode {
+    background-color: #333;
+}
+
+.topFirstOrderDarkMode h4 {
+
+    color: white;
+}
+
+
+.topFirstOrderDarkMode div {
+
+    color: white;
+}
+
+.topFirstOrderDarkMode div a h2 {
+
+    color: white;
+}
+
+.topFirstOrderDarkMode a img:hover {
+    /* transform: skew(180deg);
+       transition-duration: 1s;*/
+    filter: drop-shadow(6px 6px 12px white);
+}
+
+.topFirstOrderDarkMode a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Top Brand*/
+.topBrandDarkMode {
+    background-color: #333;
+}
+
+.topBrandDarkMode h4 {
+
+    color: white;
+}
+
+.topBrandDarkMode div {
+
+    color: white;
+}
+
+.topBrandDarkMode div a h2 {
+
+    color: white;
+}
+
+.topBrandimg a img:hover {
+    /* transform: skew(180deg);
+       transition-duration: 1s;*/
+    filter: drop-shadow(6px 6px 12px white);
+}
+
+.topBrandimg a {
+    text-decoration: none;
+    color: black;
+}
+
+/*New Added 29-2-2024*/
+.cont
+{
+    background: #333;
+    color: white;
+}
+
+.cont1
+{
+    background: white;
+    color: black;
+    filter: drop-shadow(0px 1px 2px black);
+    border: 1px solid whitesmoke;
+    transform: scale(0.9);
+    transition-duration: 1s;  
+}
+
+.cont1 a img:hover {
+    /*transform: scaleX(1.1);
+      transition-duration: 2s;*/
+    transform:none;
+    transition-duration: 1s;
+    border-radius: 20px;
+
+}
+
+
+.cont1:hover {
+    filter: drop-shadow(0px 1px 2px black);
+    border: 1px solid whitesmoke;
+    transform: scale(1.0);
+    transition-duration: 1s;  
+}
+
+
+/* Our servie */
+
+/* #ourService
+{
+    margin:20px;
+   padding-bottom: 70px;
+   padding-top: 0px;
+
+} */
+.serve1
+{
+            border: 2px solid brown;
+            border-radius: 20px;
+            background-color: rgb(222, 215, 215);
+           
+            margin: 20px 350px;
+            padding: 0px 120px;
+                       
+}
+
+.serve1 img
+{
+   padding: 0px 10px;
+    align-items: center;
+    border-radius: 25px;
+    
+}
+
+.serve1 h5
+{
+    align-items: center;
+}
+
+.serve1 p
+{
+    text-align: justify;
+}
+
+
+
+ /*Footer*/
+.footer1 li {
+    list-style: none;
+    
+
+}
+
+.footer1 li:hover {
+    list-style: none;
+
+}
+
+.footer1 li a {
+    font-weight: lighter;
+    color: black;
+    text-decoration: none;
+}
+
+.footer1 li a:hover {
+    list-style: none;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.footer1 {
+    float: left;
+    margin: 40px 50px 20px 50px;
+
+}
+
+
+
+/* About US Dark Mode */
+.aboutusDark
+{
+    background-color: #333  ;
+
+}
+
+/* Our Service Dark Mode */
+.ourserviceDark .serve1
+{
+     /* background-color: rgb(47, 44, 44); ; */
+     background-color: rgb(66, 64, 64); ;
+}
+
+.footerDark ul li a
+{
+    color: white;
+}
+.footerDark ul li a:hover
+{
+    color: white;
+}
+
+
+.footerLast {
+    background: black;
+    color: white;
+    padding: 5px 20px;
+    text-align: justify;
+}
